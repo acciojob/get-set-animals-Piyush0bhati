@@ -9,20 +9,21 @@ class Animal {
 	makeSound(){
 		console.log(` the ${this.species} makes a sound `)
 	}
-}
-
-class Dog extends Animal {
-	bark(){
+    purr(){
+		console.log("purr")
+	}
+    bark(){
 		console.log("woof")
 	}
 }
 
-class Cat extends Animal {
-	purr(){
-		console.log("purr")
-	}
+class Dog extends Animal {
+	
 }
 
+class Cat extends Animal {
+	
+}
 // Do not change the code below this line
 window.Animal = Animal;
 window.Dog = Dog;
