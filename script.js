@@ -18,6 +18,13 @@ class Animal {
         console.log("woof");
     }
 }
+class Cat extends Animal{
+	
+}
+
+class Dog extends Animal{
+	
+}
 
 // Do not change the code below this line
 window.Animal = Animal;
